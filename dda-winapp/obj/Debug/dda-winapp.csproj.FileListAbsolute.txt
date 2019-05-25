@@ -1,0 +1,10 @@
+C:\Users\Cakku\source\dda-winapp\dda-winapp\obj\Debug\dda-winapp.csprojAssemblyReference.cache
+C:\Users\Cakku\source\dda-winapp\dda-winapp\obj\Debug\dda_winapp.Form1.resources
+C:\Users\Cakku\source\dda-winapp\dda-winapp\obj\Debug\dda_winapp.Properties.Resources.resources
+C:\Users\Cakku\source\dda-winapp\dda-winapp\obj\Debug\dda-winapp.csproj.GenerateResource.cache
+C:\Users\Cakku\source\dda-winapp\dda-winapp\obj\Debug\dda-winapp.csproj.CoreCompileInputs.cache
+C:\Users\Cakku\source\dda-winapp\dda-winapp\bin\Debug\dda-winapp.exe.config
+C:\Users\Cakku\source\dda-winapp\dda-winapp\bin\Debug\dda-winapp.exe
+C:\Users\Cakku\source\dda-winapp\dda-winapp\bin\Debug\dda-winapp.pdb
+C:\Users\Cakku\source\dda-winapp\dda-winapp\obj\Debug\dda-winapp.exe
+C:\Users\Cakku\source\dda-winapp\dda-winapp\obj\Debug\dda-winapp.pdb
