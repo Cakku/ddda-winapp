@@ -37,6 +37,8 @@ namespace dda_winapp
 
 		private Process process;
         private Int32 memAddress;
+		private int counter;
+		private DateTime timer;
 
 
 		private void Title_MouseDown(object sender, System.Windows.Forms.MouseEventArgs e)
@@ -119,8 +121,16 @@ namespace dda_winapp
 
 		private void WriteLog(object sender, PropertyChangedEventArgs e) {
 			textBox3.AppendText(Environment.NewLine + e.PropertyName);
+			counter += int.Parse(e.PropertyName);
+			textBox1.Text = (DateTime.Now - timer).ToString() + Environment.NewLine + counter;
 		}
 
+		private void button5_Click(object sender, EventArgs e)
+		{
+			counter = 0;
+			timer = DateTime.Now;
+			textBox1.BringToFront();
+		}
 	}
 
 	public class ValueChange : INotifyPropertyChanged

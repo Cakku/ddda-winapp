@@ -35,6 +35,8 @@
 			this.button3 = new System.Windows.Forms.Button();
 			this.comboBox1 = new System.Windows.Forms.ComboBox();
 			this.button4 = new System.Windows.Forms.Button();
+			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.button5 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// textBox2
@@ -108,19 +110,44 @@
 			this.button4.UseVisualStyleBackColor = true;
 			this.button4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Title_MouseDown);
 			// 
+			// textBox1
+			// 
+			this.textBox1.BackColor = System.Drawing.Color.White;
+			this.textBox1.Font = new System.Drawing.Font("Tempus Sans ITC", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.textBox1.ForeColor = System.Drawing.Color.Gold;
+			this.textBox1.Location = new System.Drawing.Point(436, 170);
+			this.textBox1.Multiline = true;
+			this.textBox1.Name = "textBox1";
+			this.textBox1.ReadOnly = true;
+			this.textBox1.Size = new System.Drawing.Size(212, 90);
+			this.textBox1.TabIndex = 8;
+			// 
+			// button5
+			// 
+			this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button5.Location = new System.Drawing.Point(266, 42);
+			this.button5.Name = "button5";
+			this.button5.Size = new System.Drawing.Size(39, 39);
+			this.button5.TabIndex = 9;
+			this.button5.Text = "Counter";
+			this.button5.UseVisualStyleBackColor = true;
+			this.button5.Click += new System.EventHandler(this.button5_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.White;
 			this.ClientSize = new System.Drawing.Size(648, 260);
+			this.Controls.Add(this.button5);
+			this.Controls.Add(this.textBox1);
 			this.Controls.Add(this.button4);
 			this.Controls.Add(this.comboBox1);
 			this.Controls.Add(this.button3);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.button1);
-			this.Controls.Add(this.textBox3);
 			this.Controls.Add(this.textBox2);
+			this.Controls.Add(this.textBox3);
 			this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Name = "Form1";
@@ -140,6 +167,8 @@
         private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.ComboBox comboBox1;
 		private System.Windows.Forms.Button button4;
+		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.Button button5;
 	}
 }
 
